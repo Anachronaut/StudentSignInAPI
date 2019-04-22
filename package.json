@@ -1,0 +1,17 @@
+{
+  "name": "student-sign-in-client",
+  "description": "Student Sign-in API",
+  "author": "Ben Hodapp",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "@vue/cli": "^3.6.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.10.0",
+    "sequelize": "^5.7.1",
+    "sqlite3": "^4.0.6"
+  }
+}
